@@ -1,0 +1,40 @@
+{
+  "name": "jing-cli",
+  "version": "0.0.1",
+  "description": "template build tools",
+  "main": "src/main.js",
+  "bin": {
+    "jing-cli": "bin/jing-cli"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "vue",
+    "mpvue",
+    "wx",
+    "uniapp",
+    "uni-app",
+    "uni",
+    "jing"
+  ],
+  "author": "jtr",
+  "license": "MIT",
+  "homepage": "https://github.com/DreamElapse/jing-cli.git",
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/node": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "download-git-repo": "^2.0.0",
+    "handlebars": "^4.1.2",
+    "commander": "^2.20.0",
+    "inquirer": "^6.5.1",
+    "ora": "^3.4.0"
+  }
+}
