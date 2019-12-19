@@ -1,6 +1,6 @@
 {
   "name": "jing-cli",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "template build tools",
   "main": "src/main.js",
   "bin": {
@@ -19,7 +19,7 @@
     "uni",
     "jing"
   ],
-  "author": "jtr",
+  "author": "dreamelapse",
   "license": "MIT",
   "homepage": "https://github.com/DreamElapse/jing-cli.git",
   "devDependencies": {

@@ -2,8 +2,11 @@ const fs = require('fs')
 const path = require('path')
 const program = require('commander')
 const handleBars = require('handlebars')
+// 提问
 const inquire = require('inquirer')
+// 下载git项目
 const download = require('download-git-repo')
+// 下载时，有一个好看的交互动画
 const ora = require('ora')
 
 const packageJson = require('../package.json')
@@ -14,8 +17,9 @@ const meta = require('./meta')
 
 program.version(packageJson.version, '-V, --version')
 program
-  .command('init')
+  .command('init', 'Generate a new project from a template')
   .description('Generate a new project')
+  .alias('jing') // jing-cli 别名 jing
   .action(() => {
     ask()
 })
@@ -41,7 +45,7 @@ function ask() {
   inquire
     .prompt(questions)
     .then((answers) => {
-      const url = meta.template[answers.template] || answers.template
+      const url = meta.template[answers.template] || answers.template || 1
       meta.params = answers
       spinner.start()
       spinner.color = 'green'
