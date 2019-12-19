@@ -4,7 +4,7 @@
   "description": "template build tools",
   "main": "src/main.js",
   "bin": {
-    "jing-cli": "bin/jing-cli"
+    "jing": "bin/jing-cli"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -11,9 +11,9 @@ npm install jing-cli -g
 ```
 
 # Usage
-打开终端输入`jing-cli` 或者 `jing-cli -h` , 展示 jing-cli 的`command`列表:
+打开终端输入`jing` 或者 `jing -h` , 展示 jing-cli 的`command`列表:
 ```
-  Usage: jing-cli <command>
+  Usage: jing <command>
 
 
   Commands:
@@ -37,7 +37,7 @@ npm install jing-cli -g
 ? Server Port: random
 ? Where to init the project: ./
 
-  jing-cli ·  Generated "projectName".
+  jing ·  Generated "projectName".
 
 # Project has been initialized successfully!
 # ==========================================
