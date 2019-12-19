@@ -19,7 +19,7 @@ program.version(packageJson.version, '-V, --version')
 program
   .command('init', 'Generate a new project from a template')
   .description('Generate a new project')
-  .alias('new') // init 别名 new
+  .alias('new')
   .action(() => {
     ask()
 })
