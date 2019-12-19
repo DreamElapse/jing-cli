@@ -19,7 +19,7 @@ program.version(packageJson.version, '-V, --version')
 program
   .command('init', 'Generate a new project from a template')
   .description('Generate a new project')
-  .alias('jing') // jing-cli 别名 jing
+  .alias('new') // init 别名 new
   .action(() => {
     ask()
 })
@@ -45,7 +45,7 @@ function ask() {
   inquire
     .prompt(questions)
     .then((answers) => {
-      const url = meta.template[answers.template] || answers.template || 1
+      const url = meta.template[answers.template] || answers.template
       meta.params = answers
       spinner.start()
       spinner.color = 'green'

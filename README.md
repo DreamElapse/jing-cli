@@ -2,7 +2,7 @@
 # jing-cli
 一个轻量级的初始化项目工具
 
-<a href="https://www.npmjs.com/package/jing-cli"><img src="https://img.shields.io/badge/npm-v0.0.3-blue" alt="Version"></a>
+<a href="https://www.npmjs.com/package/jing-cli"><img src="https://img.shields.io/badge/npm-v0.0.5-blue" alt="Version"></a>
 <a href="https://www.npmjs.com/package/jing-cli"><img src="https://img.shields.io/badge/license-MIT-green" alt="License"></a>
 
 # Installation
